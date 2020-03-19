@@ -1,0 +1,118 @@
+/* holds fonts and background color */
+html {
+  font-family: Helvetica, sans-serif, Arial;
+  background-image: url(https://pixabay.com/get/57e4d6434b52a414ea9d8578c12d327d1d36c3e45659754f75297fd194/mesh-1430108.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Holds all the things expect navbar */
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px 15px;
+}
+/* only affects imgs within container */
+.container img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+/* mainly for the dates but still is global */
+em {
+  font-size: 0.75em;
+  margin: 2em;
+  font-family: "Righteous";
+  color: rgba(211, 211, 211, 0.555);
+}
+/* main title stuff */
+#maintitle {
+  font-family: "Righteous";
+  text-align: center;
+  margin: 1em;
+  font-size: 1.5em;
+}
+/* blog title stuff */
+.blogtitle {
+  font-family: "Righteous";
+  font-size: 1.25em;
+  margin: 1em;
+  text-align: center;
+}
+/* blog entry stuff */
+.blogentry {
+  font-size: 1em;
+  margin: 1em;
+  font-weight: 700;
+  color: rgba(63, 61, 61, 0.856);
+}
+/* holds copywrite and octopus link */
+footer {
+  text-align: center;
+}
+/* only affects the text */
+.copywrite {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  text-align: center;
+  color: rgba(211, 211, 211, 0.198);
+}
+/* lets the code sit as its on space */
+code {
+  margin: 1em;
+}
+/* simple navbar */
+.nav_bar {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 2em;
+  overflow: hidden;
+}
+/* mainly to remove the list bullets and add shadows */
+ul {
+  list-style-type: none;
+  font-size: 2.25em;
+  font-weight: bold;
+  text-shadow: rgb(121, 119, 119) 0.5px 0.5px;
+}
+/* moves all the items in a line */
+li {
+  display: inline;
+  font-family: "Righteous";
+  font-size: 0.75em;
+}
+/* changes the hyperlink from blue to black and removes underline */
+li a {
+  color: rgba(27, 27, 27, 0.863);
+  text-decoration: none;
+}
+/* for all imgs...probably need to be more specific here mainly used for the logo */
+img {
+  max-width: 25%;
+  max-height: auto;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  margin-bottom: 2em;
+}
+
+.nav_blog {
+  border: rgba(0, 0, 0, 0.178) 1px solid;
+  border-radius: 3px;
+}
+/* used to put a black box around the nav bar selections on hover */
+@media (hover: hover) {
+  .nav_bar a:hover {
+    border: rgba(63, 61, 61, 0.856) 1px solid;
+    border-radius: 3px;
+  }
+}

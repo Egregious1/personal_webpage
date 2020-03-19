@@ -1,0 +1,94 @@
+/* whole page is on one grid template */
+html {
+  font-family: Helvetica, sans-serif, Arial;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr;
+  background-image: url(https://pixabay.com/get/57e4d6434b52a414f6da8c7dda6d367b133adbe65b586c4870277fd29748c25fbb/mesh-1430108_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* welcome line */
+.welcome {
+  font-family: "Righteous";
+  text-align: center;
+  font-size: 2em;
+  margin: 2em;
+  text-shadow: rgba(88, 85, 85, 0.514) 0.5px 0.5px;
+}
+/* tagline message stuff */
+.tagline {
+  text-align: center;
+  margin: 2em;
+  font-size: 1em;
+  text-shadow: rgba(88, 85, 85, 0.514) 0.5px 0.5px;
+  color: rgba(5, 5, 5, 0.801);
+}
+/* nav bar */
+.nav_bar {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 1em;
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 2.25em;
+  text-shadow: rgb(121, 119, 119) 0.5px 0.5px;
+}
+
+li {
+  display: inline;
+  font-family: "Righteous";
+  font-size: 0.75em;
+}
+
+li a {
+  color: rgba(27, 27, 27, 0.863);
+  text-decoration: none;
+}
+
+.copy_write {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  text-align: center;
+  color: rgba(211, 211, 211, 0.493);
+}
+
+img {
+  max-width: 25%;
+  max-height: auto;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  margin-bottom: 4em;
+}
+
+.nav_home {
+}
+/* used to put a black box around the nav bar selections on hover */
+@media (hover: hover) {
+  .nav_bar a:hover {
+    border: rgba(63, 61, 61, 0.856) 1px solid;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  html {
+    background-image: url(https://pixabay.com/get/57e4d6434b52a414f6da8c7dda6d49214b6ac3e45659754c762d7cd292/mesh-1430108_1280.png);
+  }
+  .tagline {
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+  }
+}
