@@ -1,7 +1,7 @@
 /* holds fonts and background color */
 html {
   font-family: Helvetica, sans-serif, Arial;
-  background-image: url(https://pixabay.com/get/57e4d6434b52a414ea9d8578c12d327d1d36c3e45659754f75297fd194/mesh-1430108.png);
+  background-image: url(https://pixabay.com/get/52e9d54a4f53af14f6d1867dda6d367b1337dce35a556c4870277fd39e4cc750be/the-fog-4909513_1920.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -25,29 +25,29 @@ html {
 em {
   font-size: 0.75em;
   margin: 2em;
-  font-family: "Righteous";
   color: rgba(211, 211, 211, 0.555);
 }
 /* main title stuff */
 #maintitle {
-  font-family: "Righteous";
   text-align: center;
   margin: 1em;
   font-size: 1.5em;
 }
 /* blog title stuff */
 .blogtitle {
-  font-family: "Righteous";
   font-size: 1.25em;
   margin: 1em;
   text-align: center;
+  color: rgb(235, 227, 227, 0.856);
 }
 /* blog entry stuff */
 .blogentry {
   font-size: 1em;
   margin: 1em;
-  font-weight: 700;
-  color: rgba(63, 61, 61, 0.856);
+  font-weight: 500;
+  color: rgba(235, 227, 227, 0.856);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 /* holds copywrite and octopus link */
 footer {
@@ -84,12 +84,11 @@ ul {
 /* moves all the items in a line */
 li {
   display: inline;
-  font-family: "Righteous";
   font-size: 0.75em;
 }
 /* changes the hyperlink from blue to black and removes underline */
 li a {
-  color: rgba(27, 27, 27, 0.863);
+  color: rgba(235, 227, 227, 0.856);
   text-decoration: none;
 }
 /* for all imgs...probably need to be more specific here mainly used for the logo */
