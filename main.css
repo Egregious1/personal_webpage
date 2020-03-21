@@ -4,6 +4,7 @@ html {
   background-image: url(https://pixabay.com/get/52e9d54a4f53af14f6d1867dda6d367b1337dce35a556c4870277fd39e4cc750be/the-fog-4909513_1920.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 /* Holds all the things expect navbar */
 .container {
