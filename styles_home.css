@@ -4,10 +4,7 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4fr;
-    background-image: url(https://pixabay.com/get/52e9d54a4f53af14f6d1867dda6d367b1337dce35a556c4870277fd39e4cc750be/the-fog-4909513_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: rgba(68, 98, 122, 0.555);
 }
 /* welcome line */
 .welcome {
